@@ -28,6 +28,8 @@ Developing JS2048 posed several challenges, particularly around implementing the
 To run this project, you will need:
 
 - Modern web browser (latest versions of Chrome, Firefox, Safari, or Edge)
+- Node.js (version 14.x or newer)
+- NPM (version 6.x or newer)
 
 ## Installation and Setup
 
@@ -40,14 +42,22 @@ To install the project and run it locally, follow these steps:
 
 2. Navigate to the project directory:
     ```bash
-    cd js2048
+    cd museum-landing-page
     ```
 
-3. Open the `index.html` file in your preferred web browser.
+3. Install dependencies:
+    ```bash
+    npm install
+    ```
+
+4. Start the local development server:
+    ```bash
+    npm start
+    ```
 
 ## Usage
 
-After opening the project, you can start playing JS2048 immediately. Use the arrow keys to move the tiles in the desired direction.
+After starting the project, it will be available at `http://localhost:8080`. You can use this project to showcase information about the museum and interact with various elements.
 
 ## Example
 
