@@ -57,7 +57,7 @@ To install the project and run it locally, follow these steps:
 
 ## Usage
 
-After starting the project, it will be available at `http://localhost:8080`. You can use this project to showcase information about the museum and interact with various elements.
+After starting the project, it will be available at `http://localhost:8080`. You can use this project to play the game and interact with interface elements.
 
 ## Example
 
