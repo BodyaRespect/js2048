@@ -42,7 +42,7 @@ To install the project and run it locally, follow these steps:
 
 2. Navigate to the project directory:
     ```bash
-    cd museum-landing-page
+    cd js2048
     ```
 
 3. Install dependencies:
