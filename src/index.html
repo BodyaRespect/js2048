@@ -2,12 +2,48 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Miami</title>
+    <title>2048 Game</title>
     <link rel="stylesheet" href="./styles/main.scss">
-    <script src="scripts/main.js" defer></script>
   </head>
+
   <body>
-    <h1>Landing Page</h1>
+    <div class="container">
+      <div id="alert" class="warning"></div>
+      <div class="board">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+      </div>
+      <div class="tileContainer"></div>
+    </div>
+    <div class="elementContainer">
+      <div class="title">
+        <h1>2048</h1>
+      </div>
+      <div class="scoreElementContainer">
+        <div id="score-label" class="counter"></div>
+        <div id="scoreElement">0</div>
+      </div>
+      <div class="start">
+        <button id="newGame" class="restart"></button>
+      </div>
+    </div>
+
+    <script type="module" src="./scripts/main.js"></script>
   </body>
 </html>
